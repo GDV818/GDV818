@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Complied and minified CS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--FONT-->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <style>
+        body html {
+            height: 100%;
+            margin: 0;
+            font: "Lato", sans-serif;
+            letter-spacing: 5px;
+            color: whitesmoke;
+        }
+        
+        h5 {
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            font: 20px "Lato", sans-serif;
+            color: burlywood
+        }
+    </style>
+
+    <title>Catalogue</title>
+
+</head>
+
+<body>
+    <div class="container grey lighten-1 brown-text text-darken-3">
+        <div class="row">
+            <div class="col s12 center"></div>
+            <h2 class="center">Dress the way you want to be addressed.</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s4">
+                <div class="card-panel carousel carousel-slider center">
+                    <div class="carousel carousel-item grey lighten-1 white-text ">
+                        <h5>MEN</h5>
+                        <div class="brown-text text-darken-3 center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, exercitationem.</div>
+                        <br>
+                        <div class="carousel carousel-slider">
+                            <a href="#one!" class="carousel-item">
+                                <img src="img.html/men.jpg"></a>
+                            <a href="#two!" class="carousel-item">
+                                <img src="img.html/men.jpg"></a>
+                            <a href="#three!" class="carousel-item">
+                                <img src="img.html/men.jpg"></a>
+                            <a href="#four!" class="carousel-item">
+                                <img src="img.html/men.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="carousel carousel-slider center">
+                    <div class="carousel carousel-item grey lighten-1 white-text center">
+                        <h5>WOMEN</h5>
+                        <div class="brown-text text-darken-3 center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, exercitationem.</div>
+                        <br>
+                        <div class="carousel carousel-slider">
+                            <a href="#one!" class="carousel-item">
+                                <img src="img.html/women.jpg"></a>
+                            <a href="#two!" class="carousel-item">
+                                <img src="img.html/women.jpg"></a>
+                            <a href="#three!" class="carousel-item">
+                                <img src="img.html/women.jpg"></a>
+                            <a href="#four!" class="carousel-item">
+                                <img src="img.html/women.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="carousel carousel-slider center">
+                    <div class="carousel carousel-item grey lighten-1 white-text">
+                        <h5>CHILDREN</h5>
+                        <div class="brown-text text-darken-3 center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, exercitationem.</div>
+                        <br>
+                        <div class="carousel carousel-slider">
+                            <a href="#one!" class="carousel-item">
+                                <img src="img.html/hands.jpg"></a>
+                            <a href="#two!" class="carousel-item">
+                                <img src="img.html/hands.jpg"></a>
+                            <a href="#three!" class="carousel-item">
+                                <img src="img.html/hands.jpg"></a>
+                            <a href="#four!" class="carousel-item">
+                                <img src="img.html/hands.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="co s12 m6 offset-m1">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s4">
+                            <a href="#tab1" class="brown-text">Men</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#tab2" class="brown-text">Women</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#tab3" class="brown-text">Children</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="tab1" class="col s12">
+                    <h5>MEN</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quia non excepturi reiciendis repellat eos voluptatum rem eaque veniam quos!</p>
+                </div>
+                <div id="tab2" class="col s12">
+                    <h5>wOMEN</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quia non excepturi reiciendis repellat eos voluptatum rem eaque veniam quos!</p>
+                </div>
+                <div id="tab3" class="col s12">
+                    <h5>CHILDREN</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quia non excepturi reiciendis repellat eos voluptatum rem eaque veniam quos!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            //Floating Button Init
+            $('.fixed-action-btn').floatingActionButton();
+            //Parallax Init
+            $('.parallax').parallax();
+            //SideNav Init
+            $('.sidenav').sidenav();
+            edge: 'right';
+            //Carousel Slider Init
+            $('.carousel.carousel-slider').carousel()
+            indicators: true;
+            duration: 1000;
+            //Tab Init
+            $('.tabs').tabs();
+        })
+    </script>
+</body>
+
+</html>
